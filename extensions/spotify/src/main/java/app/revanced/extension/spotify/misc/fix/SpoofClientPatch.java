@@ -48,7 +48,7 @@ public class SpoofClientPatch {
             AndroidZeroconfServer.Builder builder = new AndroidZeroconfServer.Builder(Utils.getContext(), conf)
                     .setPreferredLocale(Locale.getDefault().getLanguage())
                     .setDeviceType(Connect.DeviceType.AUDIO_DONGLE)
-                    .setDeviceName("ReVanced PESSI");
+                    .setDeviceName("ReVanced");
 
             server = builder.create();
 
